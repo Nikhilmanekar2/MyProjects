@@ -10,7 +10,7 @@ public class MyController {
 	@RequestMapping("/hello")
 	public String greetMe() {
 		System.out.println("Inside my first restcontroller");
-		return "Hello Nikhil !";
+		return "Hello Nikhil, How r u?";
 	}
 
 }
